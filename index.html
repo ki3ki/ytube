@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTbe</title>
+  <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+  <header>
+    <h1>
+        <img src="yt-logo.jpg" height="60" width="60" >
+        YouTube
+    </h1>
+    <form class="search-form" action="/search" method="GET">
+        <input type="text" name="search" placeholder="Search videos...">
+        <button type="submit">Search</button>
+        <button type="button" id="voice-search-button"><img src="voice.png" height="30" width="30" ></button>
+        
+      </form>
+    
+  </header>
+
+  <main>
+    <div class="video-player">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe><br>
+      <h1>Part 1 Web Designing Tutorial</h1>
+    </div>
+
+    <div class="video-list">
+      <h2>Recommended Videos</h2>
+      <iframe width="300" height="168" src="https://www.youtube.com/embed/B-AnAQnNkSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      
+        <p>Part 2 Web Designing Tutorial</p>
+      
+      <iframe width="300" height="168" src="https://www.youtube.com/embed/o1HYsdwvFEI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p>Part 3 Web designing Tutorial</p>
+    
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Video Streaming Platform</p>
+  </footer>
+</body>
+</html>
